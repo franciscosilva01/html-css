@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links exemplo</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            text-decoration: none;
+            color: darkslateblue;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: darkgreen;
+        }
+
+        a:hover {
+            color: darkblue;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: rgb(0, 0, 0);
+        }
+
+       
+
+        a::before {
+            content: '  →';
+        }
+
+        a::after {
+            content: ' ←';
+            text-decoration: none;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links Exemplo</h1>
+    <ul>
+        <li><a href="https://youtube.com/cursoemvideo/" target="_blank" class="especial">Canal do youTube</a</li>
+        <li><a href="https://www.instagram.com/gustavoguanabara/" target="_blank" class="especial">Instagram do guanabara</a></li>
+        <li><a href="https://www.youtube.com/watch?v=xB3NsJKrmF0">Mc Ig</a></li>
+        
+       
+    </ul>
+</body>
+</html>

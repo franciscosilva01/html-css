@@ -1,0 +1,41 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    background-image: linear-gradient(to left,  #1b4bf5 , #080d3b69);
+   
+}
+
+#redonda {
+    height: 200px;
+    width: 210px;
+    border-radius: 50%;
+}
+
+main {
+    background: transparent;
+    width: 450px;
+    padding: 15px;
+    margin: auto;
+    box-shadow: 3px 3px 10px #00000098;
+    border-radius: 20px;
+    text-align: center;
+    color: rgb(250, 246, 246);
+    border: 3px solid rgb(0, 0, 0);
+}
+
+ h3, p {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: #693d27;
+}
+
+a:hover {
+   color: #041414;
+   transition: 1s;
+   text-decoration: underline;
+}
+
+
